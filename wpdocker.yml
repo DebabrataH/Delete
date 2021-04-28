@@ -2,7 +2,7 @@ version: '3.7'
 services:
     mydb:
         image: mysql:8.0.12
-        container_name: sql_container
+        container_name: mysql_container
         command: --default-authentication-plugin=mysql_native_password
         environment:
             MYSQL_ROOT_PASSWORD: root
